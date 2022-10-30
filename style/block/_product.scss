@@ -1,0 +1,119 @@
+.conteiner-top{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.heading-top{
+  font-size: 30px;
+  line-height: 36px;
+ color: #222222;
+} 
+.heading-next{
+ font-size: 14px;
+  line-height: 17px;
+  color: #9F9F9F;
+  margin-bottom: 57px;
+}
+.product-box{
+ padding-top: 30px;
+ padding-left: 0;
+ margin-bottom: 45px;
+ @include had();
+ justify-content: center;
+ flex-wrap: wrap;
+ gap: 30px;
+}
+  .product-text-box{
+      padding: 18px;
+  }
+  .text---top{    
+    font-size: 13px;
+    line-height: 16px;
+    color: #000000;
+    margin-top: 25px;
+  }
+  
+  .doll{
+    font-family: Lato;
+    font-size: 16px;
+    line-height: 19px;
+    color: $color;
+    margin-top: 18px;
+  }
+.box{
+ background-color: #f8f8f8;
+ width: 360px;
+ padding-bottom: 10px;
+ position: relative;
+ 
+  transition: 0.3s;
+} 
+.product-overlay{
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height:420px;
+  transform: scale(0);
+  transition: 0.5s;
+}
+.box:hover .product-overlay{
+  transform: scale(1);
+}
+.btn-add:hover{
+  transform: scale(1.1);
+}
+.btn-add{
+  transition-property: transform;
+  transition-duration: 0.5s;
+  font-size: 14px;
+ line-height: 17px;
+ color: #FFFFFF;
+ width: 138px;
+ height: 43px;
+ display: flex;
+ align-items: center;
+ border: 1px solid #FFFFFF;
+ background: rgba(58, 56, 56, 0.86);
+}
+.img-add{
+  margin-right: 11px;
+  vertical-align: center;
+  padding-left: 13px;
+}
+.product-overlay:hover {
+
+  background: rgba(58, 56, 56, 0.86);
+}
+.caption{
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 17px;
+  color: #5D5D5D;
+  margin-top: 12px;
+}
+  .in-box{
+    color: red;
+    font-size: 16px;
+    line-height: 19px;
+    outline: 1px solid red;
+    padding: 10px 20px;
+    text-decoration: none;
+    margin-bottom: 95px;
+    margin-top: 48px;
+    transition-property:transform;
+    transition-duration: 0.3s;
+   
+  }
+  
+  .in-box:hover{
+      background-color: $color;
+      color: #fff;
+      transform: scale(1.1);
+      border: none;
+  }
+  .in-box:hover .fa-arrow-right{
+    color: #fff;
+   
+  }

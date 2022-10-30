@@ -1,0 +1,52 @@
+.list{
+    background-color: black;
+    width: 31.5%;
+    height: 260px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    &1{
+     background-image: url("../img/wumen1.jpg"); 
+    }
+    &2{
+        background-image: url("../img/men2.jpg");
+    }
+    &3{
+        background-image: url("../img/kide3.jpg");
+    }
+    &-last{
+        background-image: url("../img/la4.jpg");
+        height: 180px;
+        width: 100%;
+    }
+}
+.section{
+    padding-top: 65px;
+    padding-bottom: 85px;
+    flex-grow: 1;
+}
+.card-box{
+   
+   @include had();
+    flex-wrap: wrap;
+    gap: 30px;
+    align-content: center;
+    padding: 0;
+   
+}
+.p-1{
+  
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    color: #FFFFFF;
+}
+.p--1{
+    font-size: 22px;
+    line-height: 25px;
+    color:$color;
+}

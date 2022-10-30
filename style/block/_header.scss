@@ -1,0 +1,37 @@
+.header{
+    background: #F1E4E6;
+}
+
+.header-fot{
+    background-image: url("../img/Layer_57.png");
+    background-repeat: no-repeat;
+    height: 765px;
+    background-position-x: -225px;
+    background-position-y: bottom;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.text{
+    margin-right: 90px;
+    border-left: 12px solid $color;
+    padding-left: 16px;
+    font-weight: 900;
+    font-size: 48px;
+    line-height: 40px;
+    color: #222222;
+}
+
+.rd1{
+    font-weight: bold;
+    font-size:32px;
+    line-height: 38px;
+    color: #222222;
+}
+.rd{
+    font-weight: bold;
+    font-size:32px;
+    line-height: 38px;
+    color: $color;
+}
